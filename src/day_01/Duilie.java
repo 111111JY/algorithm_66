@@ -1,8 +1,11 @@
+package day_01;
+
 import java.util.Stack;
 
 /**
  * 用两个栈来实现一个队列，
  * 完成队列的Push和Pop操作。 队列中的元素为int类型。
+ * 栈先进后出，队列先进先出
  */
 public class Duilie {
     Stack<Integer> stack1 = new Stack<Integer>();

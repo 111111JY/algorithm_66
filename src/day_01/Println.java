@@ -1,6 +1,12 @@
+package day_01;
+
 import java.util.ArrayList;
 import java.util.Stack;
 
+
+/**
+ * 输入一个链表，按链表值从尾到头的顺序返回一个ArrayList
+ */
 
 class ListNode {
     int val;
@@ -37,7 +43,7 @@ public class Println {
  * 这样的话把最后一个值添加，之后一直返回返回，直到第一步！
  */
 //    ArrayList<Integer> arrayList=new ArrayList<Integer>();
-//    public ArrayList<Integer> printListFromTailToHead(ListNode listNode) {
+//    public ArrayList<Integer> printListFromTailToHead(day_01.ListNode listNode) {
 //        if (listNode!=null){
 //            this.printListFromTailToHead(listNode.next);
 //            arrayList.add(listNode.val);
