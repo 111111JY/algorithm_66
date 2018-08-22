@@ -10,6 +10,7 @@ import java.util.ArrayList;
  * 度大的数组靠前)
  *
  * 递归和回退
+ * 深度遍历
  */
 public class FindPath {
     private ArrayList<ArrayList<Integer>> listAll = new ArrayList<ArrayList<Integer>>();
